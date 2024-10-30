@@ -1,4 +1,4 @@
-Scripts and documentation I commonly use to troubleshoot Proxmox VE issues
+Scripts I commonly use to troubleshoot and resolve Proxmox VE issues
 
 Implemented
 - Menu
