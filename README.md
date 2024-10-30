@@ -7,4 +7,8 @@ Implemented
 
 ⚠️ Under Construction ⚠️
 ---
+- Check VM ID config
+- Reset VM ID
+- Clear VM Lock
+- Restart host networking daemons
 - Check and Restart pvestatd.service
