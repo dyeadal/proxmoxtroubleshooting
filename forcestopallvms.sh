@@ -18,7 +18,7 @@ vm_ids=$(qm list | awk '{print $1}' | grep -E '^[0-9]+$')
 # Loop through each VM ID and force stop
 for vmid in $vm_ids; do
     echo "Force stopping VM ID: $vmid"
-    qm stop "$vmid" --force
+    qm stop "$vmid"
 done
 
 echo "All VMs have been force-stopped."
